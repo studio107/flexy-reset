@@ -1,0 +1,20 @@
+{
+    "name": "flexy-reset",
+    "license": "MIT",
+    "version": "1.0",
+    "devDependencies": {
+        "autoprefixer": "^7.2.2",
+        "gulp": "4",
+        "gulp-postcss": "^7.0.1",
+        "gulp-sass": "^3.1.0",
+        "node-sass": "^4.7.2",
+        "postcss-csso": "^3.0.0",
+        "postcss-flexbugs-fixes": "^3.2.0",
+        "prettier": "^1.9.2"
+    },
+    "scripts": {
+        "build": "gulp build",
+        "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"flexy/**/*.scss\""
+    },
+    "dependencies": {}
+}
